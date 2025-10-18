@@ -1,0 +1,21 @@
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+venv/
+venv.bak/
+.env
+
+# FastAPI/Dependencies
+*.log
+*.cache
+.pytest_cache/
+coverage/
+*.coverage
+.coverage.*
+
+
+# IDEs and editors
+.idea/
