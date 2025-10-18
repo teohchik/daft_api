@@ -3,7 +3,7 @@ from pydantic_settings import BaseSettings
 class Settings(BaseSettings):
     APP_NAME: str = "Daft API"
     HOST: str = "0.0.0.0"
-    PORT: int = 8000
+    PORT: int = 8005
 
     class Config:
         env_file = ".env"
